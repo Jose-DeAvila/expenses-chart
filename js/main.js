@@ -1,7 +1,7 @@
 (async () => {
   const container = document.querySelector('.container');
   const spendingList = container.querySelector('.spending__list');
-  const response = await fetch('../data.json');
+  const response = await fetch('./../data.json');
   const data = await response.json();
   const amounts = data.map(item => item.amount);
   const max = Math.max(...amounts);
