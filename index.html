@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 60px; opacity: 0.5; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <header class="container__header">
+      <div class="header__info">
+        <h6 class="info__title">My balance</h6>
+        <h3 class="info__balance">$921.48</h3>
+      </div>
+      <div class="header__brand">
+        <img src="images/logo.svg" alt="Brand logo" class="brand__logo">
+      </div>
+    </header>
+    <div class="container__details">
+      <div class="details__spending">
+        <h1 class="spending__title">Spending - Last 7 days</h1>
+        <ul class="spending__list"></ul>
+        <hr class="line">
+        <div class="spending__total">
+          <div class="total__info">
+            <h4 class="info__title">Total this month</h4>
+            <h3 class="info__balance">$478.33</h3>
+          </div>
+          <div class="total__increase">
+            <h4 class="increase__percent">+2.4%</h4>
+            <h3 class="increase__date">from last month</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/jose-deavila" target="_blank">Jose De Avila</a>.
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
